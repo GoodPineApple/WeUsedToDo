@@ -1,28 +1,30 @@
 <%@ page language="java" contentType="text/html; charset= EUC-KR"
-pageEncoding="EUC-KR"%>
+pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ page session="false" %>
 <html>
 <head>
 	<title>Home</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body><p>!!!!!!!!!!!hello </p>
 <h1>
 	Hello world!  ddddddd
 	ddddddddfdfdfdfdf
-	conflict°¡ ¹ß»ıÇÏ¸é.
+	conflictê°€ ë°œìƒí•˜ë©´.
 	
-	Ç×»ó update¸¦ ½À°üÈ­ÇÒ °Í.
-	conflict ¹ß»ıÇÑ´Ù¸é
-	synchronize¸¦ ÅëÇØ ¹®Á¦µÇ´Â ¶óÀÎÈ®ÀÎ.
-	¼Ò½º¸¦ ¼­·ÎÀÇ »óÈ²¿¡ ¸Â°Ô ¼öÁ¤ÇÑ´Ù.
-	¾îÇÃ¸®ÄÉÀÌ¼ÇÀÌ Á¤»ó±¸µ¿ÇÏ´ÂÁö È®ÀÎÇÑ´Ù.
-	¹®Á¦°¡ ÀÖ´Â ÆÄÀÏÀ» mark as merged.
-	¹®Á¦ ÀÖ´Â ÆÄÀÏµéÀ» commit (push X)
-	commit ÇÏ±â Àü±îÁö´Â update°¡ ¾ÈµÈ´Ù.
-	mark as merged, commit¸¦ ÇÏ¸é update ¹ŞÀ» ¼ö ÀÖ´Ù.
-	updateÁøÇà ÈÄ ´Ù½Ã commit.
-	±×·¯¸é conflict¸¦ mergedÇÑ ³»¿ª°ú ÆÄÀÏÀ» ¼öÁ¤ÇÑ ³»¿ªÀÌ ÇÔ²² ¿ø°İÀúÀå¼Ò¿¡ pushµÈ´Ù.
+	í•­ìƒ updateë¥¼ ìŠµê´€í™”í•  ê²ƒ.
+	conflict ë°œìƒí•œë‹¤ë©´
+	synchronizeë¥¼ í†µí•´ ë¬¸ì œë˜ëŠ” ë¼ì¸í™•ì¸.
+	ì†ŒìŠ¤ë¥¼ ì„œë¡œì˜ ìƒí™©ì— ë§ê²Œ ìˆ˜ì •í•œë‹¤.
+	ì–´í”Œë¦¬ì¼€ì´ì…˜ì´ ì •ìƒêµ¬ë™í•˜ëŠ”ì§€ í™•ì¸í•œë‹¤.
+	ë¬¸ì œê°€ ìˆëŠ” íŒŒì¼ì„ mark as merged.
+	ë¬¸ì œ ìˆëŠ” íŒŒì¼ë“¤ì„ commit (push X)
+	commit í•˜ê¸° ì „ê¹Œì§€ëŠ” updateê°€ ì•ˆëœë‹¤.
+	mark as merged, commitë¥¼ í•˜ë©´ update ë°›ì„ ìˆ˜ ìˆë‹¤.
+	updateì§„í–‰ í›„ ë‹¤ì‹œ commit.
+	ê·¸ëŸ¬ë©´ conflictë¥¼ mergedí•œ ë‚´ì—­ê³¼ íŒŒì¼ì„ ìˆ˜ì •í•œ ë‚´ì—­ì´ í•¨ê»˜ ì›ê²©ì €ì¥ì†Œì— pushëœë‹¤.
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
